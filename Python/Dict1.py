@@ -1,0 +1,24 @@
+y={}
+y[1]='aaa'
+y[2]='bbb'
+x={3:'ccc',4:'ddd'}
+print(y)
+print(x)
+y.update(x)
+print(y)
+print(x)
+print(len(y))
+print(len(x))
+print(y.keys())
+print(y.values())
+print(y.items())
+print(y.get(1))
+print(y.get(2))
+print(y.get(3))
+print(y.get(4))
+print(y.setdefault(5,'eee'))
+print(y)
+y[6]='fff'
+print(y)
+del y[3]
+print(y) 
